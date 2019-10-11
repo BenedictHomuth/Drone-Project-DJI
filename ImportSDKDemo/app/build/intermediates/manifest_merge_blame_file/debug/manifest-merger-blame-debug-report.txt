@@ -1,0 +1,280 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dji.importSDKDemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml
+10
+11    <!-- Permissions and features -->
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:7:5-74
+13-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:7:22-71
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:8:5-66
+14-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:8:22-63
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:10:5-76
+16-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:10:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:11:5-68
+17-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:14:5-79
+20-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+21-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:15:5-76
+21-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:15:22-73
+22    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+22-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:16:5-84
+22-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:16:22-81
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:17:5-81
+23-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:17:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:18:5-80
+24-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+25-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:19:5-78
+25-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:19:22-75
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:20:5-75
+26-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:20:22-72
+27
+28    <uses-feature android:name="android.hardware.camera" />
+28-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:22:5-60
+28-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:22:19-57
+29    <uses-feature android:name="android.hardware.camera.autofocus" />
+29-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:23:5-70
+29-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:23:19-67
+30    <uses-feature
+30-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:24:5-26:36
+31        android:name="android.hardware.usb.host"
+31-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:25:9-49
+32        android:required="false" />
+32-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:26:9-33
+33    <uses-feature
+33-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:27:5-29:35
+34        android:name="android.hardware.usb.accessory"
+34-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:28:9-54
+35        android:required="true" />
+35-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:29:9-32
+36
+37    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+37-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:14:5-98
+37-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:14:22-95
+38    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+38-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:16:5-80
+38-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:16:22-77
+39    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+39-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:19:5-79
+39-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:19:22-76
+40    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+40-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:22:5-79
+40-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:22:22-76
+41    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+41-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:24:5-71
+41-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:24:22-68
+42    <uses-permission android:name="android.permission.CAMERA" /> <!-- video editor -->
+42-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:25:5-65
+42-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:25:22-62
+43    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+43-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:29:5-81
+43-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:29:22-78
+44    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+44-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:30:5-75
+44-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:30:22-72
+45    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+45-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:31:5-73
+45-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:31:22-70
+46    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+46-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:32:5-79
+46-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:32:22-76
+47    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+47-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:33:5-84
+47-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:33:22-81
+48    <uses-permission android:name="android.permission.READ_LOGS" /> <!-- share permission start -->
+48-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:34:5-68
+48-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:34:22-65
+49    <uses-permission android:name="android.permission.GET_TASKS" />
+49-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:38:5-68
+49-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:38:22-65
+50    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+50-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:41:5-74
+50-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:41:22-71
+51    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+51-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:42:5-71
+51-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:42:22-68
+52    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+52-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:43:5-81
+52-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:43:22-78
+53    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> <!-- share permission end -->
+53-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:44:5-85
+53-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:44:22-82
+54    <!-- livestreaming permission start -->
+55    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+55-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:50:5-74
+55-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:50:22-71
+56
+57    <uses-feature
+57-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:9:5-11:36
+58        android:name="android.hardware.sensor.accelerometer"
+58-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:10:9-61
+59        android:required="false" />
+59-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:11:9-33
+60    <uses-feature android:name="android.hardware.location" />
+60-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:12:5-62
+60-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:12:19-59
+61    <uses-feature
+61-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:13:5-15:36
+62        android:name="android.hardware.location.gps"
+62-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:14:9-53
+63        android:required="false" />
+63-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:15:9-33
+64    <uses-feature
+64-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:16:5-18:36
+65        android:name="android.hardware.telephony"
+65-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:17:9-50
+66        android:required="false" />
+66-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:18:9-33
+67    <uses-feature android:name="android.hardware.wifi" /> <!-- Permissions and features -->
+67-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:19:5-58
+67-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:19:19-55
+68    <application
+68-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:33:5-70:19
+69        android:name="com.dji.importSDKDemo.MApplication"
+69-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:34:9-37
+70        android:allowBackup="true"
+70-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:35:9-35
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.1.0] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\c527b78844be871c44103f6f45a963fb\core-1.1.0\AndroidManifest.xml:24:18-86
+72        android:debuggable="true"
+73        android:icon="@mipmap/ic_launcher"
+73-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:36:9-43
+74        android:label="@string/app_name"
+74-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:37:9-41
+75        android:roundIcon="@mipmap/ic_launcher_round"
+75-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:38:9-54
+76        android:supportsRtl="true"
+76-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:39:9-35
+77        android:theme="@style/AppTheme" >
+77-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:40:9-40
+78
+79        <!-- DJI SDK -->
+80        <uses-library android:name="com.android.future.usb.accessory" />
+80-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:43:9-73
+80-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:43:23-70
+81
+82        <meta-data
+82-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:44:9-46:56
+83            android:name="com.dji.sdk.API_KEY"
+83-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:45:13-47
+84            android:value="504dc26bf7e808fc0d7cde73" />
+84-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:46:13-53
+85
+86        <activity
+86-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:47:9-56:20
+87            android:name="dji.sdk.sdkmanager.DJIAoaControllerActivity"
+87-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:48:13-71
+88            android:theme="@android:style/Theme.Translucent" >
+88-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:49:13-61
+89            <intent-filter>
+89-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:50:13-52:29
+90                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+90-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:51:17-93
+90-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:51:25-90
+91            </intent-filter>
+92
+93            <meta-data
+93-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:53:13-55:60
+94                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+94-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:54:17-82
+95                android:resource="@xml/accessory_filter" />
+95-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:55:17-57
+96        </activity>
+97
+98        <service
+98-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:57:9-58:19
+99            android:name="dji.sdk.sdkmanager.DJIGlobalService"
+99-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:57:18-68
+100            android:stopWithTask="true" >
+100-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:63:13-40
+101        </service>
+102        <!-- DJI SDK -->
+103
+104        <activity
+104-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:61:9-69:20
+105            android:name="com.dji.importSDKDemo.MainActivity"
+105-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:61:19-47
+106            android:configChanges="orientation"
+106-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:62:13-48
+107            android:screenOrientation="portrait" >
+107-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:63:13-49
+108            <intent-filter>
+108-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:64:13-68:29
+109                <action android:name="android.intent.action.MAIN" />
+109-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:65:17-69
+109-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:65:25-66
+110
+111                <category android:name="android.intent.category.LAUNCHER" />
+111-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:67:17-77
+111-->C:\Users\homuth\AndroidStudioProjects\ImportSDKDemo\app\src\main\AndroidManifest.xml:67:27-74
+112            </intent-filter>
+113        </activity>
+114
+115        <receiver
+115-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:65:9-72:20
+116            android:name="dji.logic.receiver.DJIPilotStartupReceiver"
+116-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:66:13-70
+117            android:exported="true" >
+117-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:67:13-36
+118            <intent-filter>
+118-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:68:13-71:29
+119                <action android:name="dji.go3.STARTUP" />
+119-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:69:17-58
+119-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:69:25-55
+120                <action android:name="dji.go4.STARTUP" />
+120-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:70:17-58
+120-->[com.dji:dji-sdk:4.11] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\07035d1512cee4624c42d4e156465541\jetified-dji-sdk-4.11\AndroidManifest.xml:70:25-55
+121            </intent-filter>
+122        </receiver>
+123
+124        <service
+124-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:22:9-24:39
+125            android:name="com.mapzen.android.lost.internal.FusedLocationProviderService"
+125-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:23:13-89
+126            android:process=":lost" />
+126-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:24:13-36
+127        <service android:name="com.mapzen.android.lost.internal.GeofencingIntentService" >
+127-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:25:9-29:19
+127-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:25:18-89
+128            <intent-filter>
+128-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:26:13-28:29
+129                <action android:name="com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE" />
+129-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:27:17-91
+129-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:27:25-88
+130            </intent-filter>
+131        </service>
+132        <service android:name="com.mapzen.android.lost.internal.DwellIntentService" >
+132-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:30:9-31:19
+132-->[com.mapzen.android:lost:3.0.4] C:\Users\homuth\.gradle\caches\transforms-2\files-2.1\0043b34ef4df59266cf58ec64a32031a\jetified-lost-3.0.4\AndroidManifest.xml:30:18-84
+133        </service>
+134    </application>
+135
+136</manifest>
